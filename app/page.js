@@ -44,7 +44,7 @@ export default function Home() {
   <div className="bg-white h-1 opacity-15"></div>
   <div className="text-white container mx-auto pb-32 pt-14 flex flex-col items-center">
     <h2 className="text-3xl font-bold text-center mb-13">Your fans can help you a little.</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QtaorVNAwbI?si=XQ_O8CLkJNhiHe8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QtaorVNAwbI?si=XQ_O8CLkJNhiHe8t" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
   </div>
 
   </>
