@@ -7,9 +7,9 @@ export default function Home() {
    <div className="font-bold text-5xl flex gap-2 items-center">Give A Little <span><img src="/helping.gif" width={40} alt="" /></span></div>
    <p>A crowdfunding platform for creators. Get funded by your fans and followers.</p>
    <div>
-    <button type="button" className="text-heading bg-gradient-to-r from-green-200 via-green-400 to-green-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2.5 text-center leading-5 me-2 mb-2 cursor-pointer">Start Now!</button>
+    <button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5 rounded-lg me-2 mb-2 cursor-pointer">Start Now!</button>
 
-    <button type="button" className="text-heading bg-gradient-to-r from-green-200 via-green-400 to-green-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2.5 text-center leading-5 me-2 mb-2 cursor-pointer text">Read More</button>
+    <button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5 rounded-lg me-2 mb-2 cursor-pointer text">Read More</button>
    </div>
   </div>
 

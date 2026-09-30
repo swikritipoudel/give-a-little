@@ -24,31 +24,29 @@ const Username = async ({ params }) => {
         <div className='text-slate-200'>
             200 members . 10 posts . $5000/ release
         </div>
-        <div className="payment flex gap-3 w-[80%]">
+        <div className="payment flex gap-3 w-[80%] mt-15">
             <div className="supporters w-1/2 bg-green-200 rounded-lg text-black p-10">
-            <h2 className='font-bold text-lg'>Supporters</h2>
-                <ul>
-                    <li>Shubham donated 200</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
-                    <li>Sujal donated aalu</li>
+            <h2 className='font-bold text-2xl my-5'>Supporters</h2>
+                <ul className='mx-5 text-md'>
+                    <li className=' my-2 flex gap-2 items-center'>
+                        <img src="useravatar.png" alt="User avatar" width={25} />
+                        <span>Shubham donated <span className='font-bold'>$20</span> with a message "Helpful projects ❤"</span></li>
+                   
                 </ul>
             </div>
             <div className="makePayment w-1/2 bg-green-200 rounded-lg text-black p-10">
-                
+                 <h2 className='font-bold text-2xl my-5'>Make a Payment</h2>
+                 <div className='flex flex-col gap-2'>
+                    <input type="text" className='w-full p-3 rounded-lg bg-green-100' placeholder='Enter name'/>
+                    <input type="text" className='w-full p-3 rounded-lg bg-green-100' placeholder='Enter amount'/>
+                    <input type="text" className='w-full p-3 rounded-lg bg-green-100' placeholder='Enter message'/>
+                    <button type="button" className="text-white bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5 cursor-pointer">Pay</button>
+                 </div>
+                 <div className='flex gap-2 mt-5'>
+                    <button className='bg-green-700 p-3 rounded-lg cursor-pointer text-white'>Pay $10</button>
+                    <button className='bg-green-700 p-3 rounded-lg cursor-pointer text-white'>Pay $20</button>
+                    <button className='bg-green-700 p-3 rounded-lg cursor-pointer text-white'>Pay $30</button>
+                 </div>
             </div>
         </div>
     </div>

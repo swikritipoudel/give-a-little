@@ -24,7 +24,23 @@ export const authoptions = NextAuth({
     //   server: process.env.MAIL_SERVER,
     //   from: 'NextAuth.js <no-reply@example.com>'
     // }),
-  ]
+  ],
+
+  
+callbacks: {
+  async signIn({ user, account, profile, email, credentials }) {
+    if(account.provider = "github"){
+      //Connect to the database
+      const client = await mongoose.connect()
+
+      //Check if the user already exists in the database
+      // const currentUser = await client.db("users").collection("users").findOne({email:email})
+
+    }
+   
+  }
+}
+
 })
 
 export {authoptions as GET, authoptions as POST}
